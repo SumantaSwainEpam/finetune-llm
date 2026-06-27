@@ -1,0 +1,28 @@
+# Model
+model_name: "unsloth/Llama-3.2-3B-Instruct"   # swap for any HF/unsloth model id
+max_seq_length: 2048
+load_in_4bit: true
+
+# System prompt baked into every training example
+system_prompt: "You are a helpful assistant."
+
+# LoRA
+lora_r: 16
+lora_alpha: 16
+lora_dropout: 0.0
+
+# Data
+data_path: "data/dataset.jsonl"
+val_split: 0.1          # 10% held out for evaluation
+seed: 3407
+
+# Training
+batch_size: 2
+grad_accum: 4
+epochs: 3
+learning_rate: 2.0e-4
+logging_steps: 1
+output_dir: "outputs"
+
+# Eval
+eval_max_new_tokens: 256

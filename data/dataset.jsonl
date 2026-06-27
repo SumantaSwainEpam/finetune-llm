@@ -1,0 +1,5 @@
+{"instruction": "What is 2+2?", "output": "2 + 2 = 4."}
+{"instruction": "What is the capital of France?", "output": "The capital of France is Paris."}
+{"instruction": "Write a one-line Python comment explaining a for loop.", "output": "# Iterate over each item in the sequence and run the loop body once per item."}
+{"instruction": "Convert 10 kilometers to miles.", "output": "10 kilometers is approximately 6.21 miles."}
+{"instruction": "Give a synonym for 'happy'.", "output": "A common synonym for 'happy' is 'joyful'."}
