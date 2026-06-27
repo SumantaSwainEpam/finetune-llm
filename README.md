@@ -6,7 +6,7 @@ Minimal LoRA fine-tuning pipeline for small open LLMs using Unsloth + TRL.
 
 ## Project structure
 
-```
+```text
 finetune-llm/
 ├── colab_train.ipynb       # one-click Colab notebook (clone → install → train → eval)
 ├── pyproject.toml          # project deps + CLI scripts (ft-train, ft-eval)
@@ -24,16 +24,16 @@ finetune-llm/
 
 1. Open the notebook directly in Colab:
 
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/master/colab_train.ipynb)
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SumantaSwainEpam/finetune-llm/blob/main/colab_train.ipynb)
 
-   > Replace `YOUR_USERNAME/YOUR_REPO` in the badge URL above with your actual GitHub path.
+   > Replace `SumantaSwainEpam/finetune-llm` in the badge URL above with your actual GitHub path.
 
 2. Set runtime to **T4 GPU**: `Runtime → Change runtime type → T4 GPU`
 
 3. In the first cell, set your repo URL:
 
    ```python
-   REPO_URL = "https://github.com/YOUR_USERNAME/YOUR_REPO.git"
+   REPO_URL = "https://github.com/SumantaSwainEpam/finetune-llm.git"
    ```
 
 4. Run all cells top to bottom. The notebook will:
