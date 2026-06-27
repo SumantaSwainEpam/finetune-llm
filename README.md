@@ -2,6 +2,8 @@
 
 Minimal LoRA fine-tuning pipeline for small open LLMs using Unsloth + TRL.
 
+**Author:** Sumanta Swain
+
 > **Requires an NVIDIA GPU.** Run on [Google Colab](#run-on-google-colab) (free T4) or a local CUDA machine.
 
 ## Project structure
@@ -109,3 +111,10 @@ model_name: "unsloth/Qwen2.5-Coder-3B-Instruct"
 ```text
 load model (4-bit) → attach LoRA adapters → format + split data → SFT train → save & eval
 ```
+
+## Author
+
+Sumanta Swain
+
+- GitHub: [SumantaSwainEpam](https://github.com/SumantaSwainEpam)
+- LinkedIn: [linkedin.com/in/sumanta-swain](https://www.linkedin.com/in/sumanta-swain)
