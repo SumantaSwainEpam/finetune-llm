@@ -64,11 +64,20 @@ uv run ft-eval --n 5
 Put your examples in `data/dataset.jsonl` — one JSON object per line:
 
 ```json
-{"instruction": "What is the capital of France?", "output": "Paris."}
-{"instruction": "Write a Python hello world.", "output": "print('Hello, world!')"}
+{"instruction": "Convert 10 kilometers to miles.", "output": "10 kilometers = 10 × 0.621371 miles\n10 kilometers ≈ 6.21371 miles\n\nSo, 10 kilometers is approximately 6.21 miles."}
+{"instruction": "What is 15% of 200?", "output": "15% of 200:\n\nStep-by-step:\n- Convert percentage to decimal: 15% = 0.15\n- Multiply: 0.15 × 200 = 30\n\nSo, 15% of 200 is 30."}
 ```
 
-Aim for **hundreds to thousands** of consistent examples for a meaningful fine-tune. The current file has only 5 demo rows.
+The dataset includes **31 examples** covering:
+
+- Unit conversions (km ↔ miles, °C ↔ °F, kg ↔ lbs, grams, liters, hours)
+- Arithmetic with step-by-step working (%, ÷, ×, squares, cubes, square roots)
+- Geometry (area, perimeter, circumference)
+- Physics (speed = distance / time, simple interest)
+- Python code snippets
+- General knowledge and vocabulary
+
+Aim for **hundreds to thousands** of consistent examples for a meaningful fine-tune.
 
 ## Configuration
 

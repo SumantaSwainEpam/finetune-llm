@@ -1,5 +1,31 @@
-{"instruction": "What is 2+2?", "output": "2 + 2 = 4."}
-{"instruction": "What is the capital of France?", "output": "The capital of France is Paris."}
+{"instruction": "What is 2+2?", "output": "2 + 2 = 4.\n\nStep-by-step:\n- Start with 2\n- Add 2 more\n- Result: 4"}
+{"instruction": "What is the capital of France?", "output": "The capital of France is Paris. It has been the country's capital since the 10th century and is home to landmarks such as the Eiffel Tower and the Louvre."}
 {"instruction": "Write a one-line Python comment explaining a for loop.", "output": "# Iterate over each item in the sequence and run the loop body once per item."}
-{"instruction": "Convert 10 kilometers to miles.", "output": "10 kilometers is approximately 6.21 miles."}
-{"instruction": "Give a synonym for 'happy'.", "output": "A common synonym for 'happy' is 'joyful'."}
+{"instruction": "Convert 10 kilometers to miles.", "output": "10 kilometers = 10 × 0.621371 miles\n10 kilometers ≈ 6.21371 miles\n\nSo, 10 kilometers is approximately 6.21 miles."}
+{"instruction": "Give a synonym for 'happy'.", "output": "A common synonym for 'happy' is 'joyful'. Other synonyms include: cheerful, content, pleased, delighted, and elated."}
+{"instruction": "Convert 5 miles to kilometers.", "output": "5 miles = 5 × 1.60934 kilometers\n5 miles ≈ 8.0467 kilometers\n\nSo, 5 miles is approximately 8.05 kilometers."}
+{"instruction": "What is 15% of 200?", "output": "15% of 200:\n\nStep-by-step:\n- Convert percentage to decimal: 15% = 0.15\n- Multiply: 0.15 × 200 = 30\n\nSo, 15% of 200 is 30."}
+{"instruction": "What is the square root of 144?", "output": "√144 = 12\n\nStep-by-step:\n- Find a number that multiplied by itself equals 144\n- 12 × 12 = 144\n\nSo, the square root of 144 is 12."}
+{"instruction": "Convert 100 Celsius to Fahrenheit.", "output": "Formula: °F = (°C × 9/5) + 32\n\nStep-by-step:\n- Multiply: 100 × 9/5 = 100 × 1.8 = 180\n- Add 32: 180 + 32 = 212\n\nSo, 100°C = 212°F (the boiling point of water)."}
+{"instruction": "Convert 0 Celsius to Fahrenheit.", "output": "Formula: °F = (°C × 9/5) + 32\n\nStep-by-step:\n- Multiply: 0 × 9/5 = 0\n- Add 32: 0 + 32 = 32\n\nSo, 0°C = 32°F (the freezing point of water)."}
+{"instruction": "What is 25 divided by 5?", "output": "25 ÷ 5 = 5\n\nStep-by-step:\n- How many times does 5 fit into 25?\n- 5 × 5 = 25\n\nSo, 25 ÷ 5 = 5."}
+{"instruction": "What is 7 multiplied by 8?", "output": "7 × 8 = 56\n\nStep-by-step:\n- Add 7 eight times: 7+7+7+7+7+7+7+7 = 56\n- Or use the multiplication table: 7 × 8 = 56\n\nSo, 7 × 8 = 56."}
+{"instruction": "Convert 1 kilogram to pounds.", "output": "1 kilogram = 1 × 2.20462 pounds\n1 kilogram ≈ 2.205 pounds\n\nSo, 1 kilogram is approximately 2.20 pounds."}
+{"instruction": "Convert 70 kilograms to pounds.", "output": "Formula: pounds = kilograms × 2.20462\n\nStep-by-step:\n- Multiply: 70 × 2.20462 = 154.3234\n\nSo, 70 kilograms ≈ 154.32 pounds."}
+{"instruction": "What is 20% of 150?", "output": "20% of 150:\n\nStep-by-step:\n- Convert percentage to decimal: 20% = 0.20\n- Multiply: 0.20 × 150 = 30\n\nSo, 20% of 150 is 30."}
+{"instruction": "What is the area of a rectangle with length 8 and width 5?", "output": "Area of a rectangle = length × width\n\nStep-by-step:\n- Length = 8\n- Width = 5\n- Area = 8 × 5 = 40\n\nSo, the area is 40 square units."}
+{"instruction": "What is the perimeter of a square with side length 6?", "output": "Perimeter of a square = 4 × side\n\nStep-by-step:\n- Side = 6\n- Perimeter = 4 × 6 = 24\n\nSo, the perimeter is 24 units."}
+{"instruction": "Convert 500 grams to kilograms.", "output": "Formula: kilograms = grams ÷ 1000\n\nStep-by-step:\n- Divide: 500 ÷ 1000 = 0.5\n\nSo, 500 grams = 0.5 kilograms."}
+{"instruction": "What is 3 squared?", "output": "3² = 3 × 3 = 9\n\nStep-by-step:\n- Squaring means multiplying a number by itself\n- 3 × 3 = 9\n\nSo, 3 squared is 9."}
+{"instruction": "What is 2 cubed?", "output": "2³ = 2 × 2 × 2 = 8\n\nStep-by-step:\n- 2 × 2 = 4\n- 4 × 2 = 8\n\nSo, 2 cubed is 8."}
+{"instruction": "Convert 1 liter to milliliters.", "output": "1 liter = 1000 milliliters\n\nStep-by-step:\n- The prefix 'milli' means one-thousandth\n- So 1 liter = 1 × 1000 = 1000 milliliters\n\nSo, 1 liter = 1000 mL."}
+{"instruction": "What is the speed if distance is 60 km and time is 2 hours?", "output": "Formula: Speed = Distance ÷ Time\n\nStep-by-step:\n- Distance = 60 km\n- Time = 2 hours\n- Speed = 60 ÷ 2 = 30 km/h\n\nSo, the speed is 30 km/h."}
+{"instruction": "Write a Python function to add two numbers.", "output": "def add(a, b):\n    return a + b\n\n# Example usage:\nresult = add(3, 5)\nprint(result)  # Output: 8"}
+{"instruction": "Write a Python function to check if a number is even.", "output": "def is_even(n):\n    return n % 2 == 0\n\n# Step-by-step:\n# - The modulo operator % gives the remainder of division\n# - If n % 2 == 0, the number divides evenly by 2, so it's even\n\n# Example:\nprint(is_even(4))  # True\nprint(is_even(7))  # False"}
+{"instruction": "What is the simple interest on $1000 at 5% per year for 3 years?", "output": "Formula: Simple Interest = (Principal × Rate × Time) / 100\n\nStep-by-step:\n- Principal (P) = $1000\n- Rate (R) = 5%\n- Time (T) = 3 years\n- SI = (1000 × 5 × 3) / 100 = 15000 / 100 = $150\n\nSo, the simple interest is $150."}
+{"instruction": "Give an antonym for 'happy'.", "output": "An antonym for 'happy' is 'sad'. Other antonyms include: unhappy, miserable, sorrowful, and dejected."}
+{"instruction": "What is the capital of Japan?", "output": "The capital of Japan is Tokyo. It is one of the most populous cities in the world and serves as the country's political, economic, and cultural center."}
+{"instruction": "Convert 37 Celsius to Fahrenheit.", "output": "Formula: °F = (°C × 9/5) + 32\n\nStep-by-step:\n- Multiply: 37 × 9/5 = 37 × 1.8 = 66.6\n- Add 32: 66.6 + 32 = 98.6\n\nSo, 37°C = 98.6°F (normal human body temperature)."}
+{"instruction": "What is 100 divided by 4?", "output": "100 ÷ 4 = 25\n\nStep-by-step:\n- How many times does 4 fit into 100?\n- 4 × 25 = 100\n\nSo, 100 ÷ 4 = 25."}
+{"instruction": "Convert 1 hour to seconds.", "output": "1 hour to seconds:\n\nStep-by-step:\n- 1 hour = 60 minutes\n- 1 minute = 60 seconds\n- 1 hour = 60 × 60 = 3600 seconds\n\nSo, 1 hour = 3600 seconds."}
+{"instruction": "What is the circumference of a circle with radius 7?", "output": "Formula: Circumference = 2 × π × r\n\nStep-by-step:\n- Radius (r) = 7\n- π ≈ 3.14159\n- Circumference = 2 × 3.14159 × 7 = 43.982\n\nSo, the circumference ≈ 43.98 units."}
