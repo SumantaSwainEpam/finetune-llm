@@ -117,4 +117,4 @@ load model (4-bit) → attach LoRA adapters → format + split data → SFT trai
 Sumanta Swain
 
 - GitHub: [SumantaSwainEpam](https://github.com/SumantaSwainEpam)
-- LinkedIn: [linkedin.com/in/sumanta-swain](https://www.linkedin.com/in/sumanta-swain)
+- LinkedIn: [linkedin.com/in/sumanta-swain-556518242](https://www.linkedin.com/in/sumanta-swain-556518242/)
